@@ -122,6 +122,10 @@ color: #000000;
   color: black;
 }
 
+.main {
+  background-color: #E5E5E5;;
+}
+
 .hero {
   background-color: #f13c6e;
   background-image: url(../img/hero.png);
@@ -173,6 +177,53 @@ padding: 0.5em 1em;
 
 }
 
-  
 .specials {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.specials__title {
+  margin-top: 0;
+  margin-bottom: 40px;
+
+}
+
+.specials__content {
+  display: flex;
+  gap: 30px;
+}
+
+.special {
+  background-color: #ffffff;
+  padding: 25px;
+  display: flex;
+  gap: 20px;
+  flex-direction: column;
+  text-align: center;
+}
+}
+.special__title {
+  order: -1;
+}
+.special__price {
+}
+.special__buy {
+}
+
+.submit {
+}
+
+.container--submit {
+  display: flex;
+  gap: 30px;
+}
+.subscribe {
+  background-color: #f13c6e;
+  min-height: 210px;
+  flex-grow: 1;
+}
+.location {
+  background-color: #f13c6e;
+  min-height: 210px;
+  flex-grow: 1;
 }
