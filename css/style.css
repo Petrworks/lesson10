@@ -61,8 +61,7 @@ line-height: 16px;
   min-height: 120px;
   
 }
-.logo {
-}
+
 .logo__link {
   display: flex;
   column-gap: 20px;
@@ -151,9 +150,6 @@ color: #000000;
 .hero__description {
   line-height: 1.43;
   color: #ffffff;
-}
-
-.hero__actions {
 }
 
 .hero__links {
@@ -245,8 +241,6 @@ color: #000000;
   background-repeat: no-repeat;
   background-position: calc(540px - 210px) 50%;
 }
-
-
 .subscribe__title {
   font-style: 18px;
   margin-top: 35px;
@@ -255,19 +249,19 @@ color: #000000;
   color: #ffffff;
 }
 .subscribe__description {
-  max-width: 230px;
   margin-bottom: 30px;
   line-height: 20px;
+
   color: #ffffff;
 }
 .subscribe__email {
   height: 36px;
   width: 225px;
+  letter-spacing: 0.05em;
   border-radius: 18px;
   border-style: none;
   line-height: 16px;
   padding-left: 25px;
-  
 }
 .subscribe__email::placeholder {
   color: #C4C4C4;
@@ -279,9 +273,51 @@ color: #000000;
   background-color: #f13c6e;
   min-height: 210px;
   flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  padding-left: 40px;
+  background-color: #f13c6e;
+  min-height: 210px;
+  flex-grow: 1;
+  background-image: url(../img/our-shops1.png);
+  background-repeat: no-repeat;
+  background-position: calc(540px - 240px) 50%;
 }
 
-.brands {
+.location__title {
+  font-style: 18px;
+  margin-top: 35px;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.location__description {
+  margin-bottom: 30px;
+  line-height: 20px;
+  color: #ffffff;
+}
+.location__action {
+}
+.location__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.05em;
+
+  color: #ffffff;
+  width: 170px;
+  height: 35px;
+  background: #F13C6E;
+  border: 2px solid #FFFFFF;
+  border-radius: 18px;
+  padding: 0.5em 1em;
+}
+.brands  {
+  margin-bottom: 90px;
 }
 
 .container--brands {
@@ -297,6 +333,13 @@ color: #000000;
   background-color: #ffffff;
   padding: 1em;
 }
-.brand-item__image {
-  
+.viewed {
+  margin-bottom: 80px;
+}
+.viewed__title {
+  margin-bottom: 40px;
+}
+.viewed__content {
+  display: flex;
+  gap: 30px;
 }
