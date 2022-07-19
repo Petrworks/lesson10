@@ -58,7 +58,6 @@ line-height: 16px;
 }
 .container--logo {
   min-height: 120px;
-  
 }
 
 .logo__link {
@@ -375,13 +374,50 @@ color: black;
   line-height: 28px;
   padding: 0;
 }
-.footer-category__item {
 
-}
 .footer-category__link {
   font-size: 12px;
 line-height: 28px;
 color: #828282;
 }
-.footer-main__item {
+.footer-secondary {
+  min-height: 120px;
+  display: flex;
+  border-top: 1px solid #efefef;
+  margin-top: 40px;
+  gap: 540px;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-secondary--social {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+
+}
+.social {
+}
+
+.social__image {
+  border: 2px solid #f13c6e;
+  border-radius: 40px;
+  padding: 10px;
+  width: 45px;
+  height: 45px;
+}
+.footer-phone {
+}
+
+.footer-politics {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  background: #efefef;
+  gap: 345px;
+font-size: 12px;
+line-height: 14px;
+color: #828282;
 }
