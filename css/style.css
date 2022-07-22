@@ -4,20 +4,17 @@
 html {
   font-size: 16px;
 }
-
 body {
   font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #333333;
   background-color: #ffffff;
 }
-
 a {
   text-decoration: none;
   color: inherit;
 }
-.header {
-}
+
 .navbar-secondary {
   background-color: #e5e5e5;
   padding: 1em 0;
@@ -87,7 +84,6 @@ a {
   min-width: 170px;
   height: 40px;
   line-height: 16px;
-
   color: #000000;
   background: #ffffff;
   border: 2px solid #f13c6e;
@@ -333,9 +329,6 @@ a {
   display: flex;
   gap: 30px;
 }
-
-.footer {
-}
 .footer-main {
   display: flex;
   justify-content: center;
@@ -346,7 +339,6 @@ a {
   width: 255px;
   min-height: 255px;
 }
-
 .footer-main__item {
   display: block;
   max-width: 100px;
@@ -366,7 +358,6 @@ a {
   line-height: 28px;
   padding: 0;
 }
-
 .footer-category__link {
   font-size: 12px;
   line-height: 28px;
@@ -381,27 +372,20 @@ a {
   align-items: center;
   justify-content: center;
 }
-
-.footer-secondary--social {
+.footer-secondary__logo {
   display: flex;
   align-items: center;
   gap: 20px;
   justify-content: center;
 }
-.social {
-}
-
-.social__image {
+.footer-secondary__social--image {
   border: 2px solid #f13c6e;
   border-radius: 40px;
   padding: 10px;
   width: 45px;
   height: 45px;
 }
-.footer-phone {
-}
-
-.footer-politics {
+.footer-secondary__politics {
   display: flex;
   justify-content: center;
   align-items: center;
