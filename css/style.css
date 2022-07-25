@@ -14,7 +14,6 @@ a {
   text-decoration: none;
   color: inherit;
 }
-
 .navbar-secondary {
   background-color: #e5e5e5;
   padding: 1em 0;
@@ -27,7 +26,6 @@ a {
   padding: 0 20px;
   margin: 0 auto;
 }
-
 .container--logo {
   min-height: 120px;
   display: flex;
@@ -45,14 +43,12 @@ a {
   gap: 0.5em 30px;
   flex-wrap: wrap;
 }
-
 .navbar-secondary__link {
   line-height: 16px;
 }
 .container--logo {
   min-height: 120px;
 }
-
 .logo__link {
   display: flex;
   column-gap: 20px;
@@ -69,7 +65,6 @@ a {
   letter-spacing: 0.1em;
   color: #f13c6e;
 }
-
 .callback {
   display: flex;
   column-gap: 40px;
@@ -117,6 +112,7 @@ a {
   background-image: url(../img/hero.png);
   background-repeat: no-repeat;
   background-position: 67% 50%;
+  background-size: cover;
   min-height: 604px;
   padding-top: 192px;
   padding-bottom: 192px;
@@ -148,7 +144,6 @@ a {
   line-height: 16px;
   text-align: center;
   letter-spacing: 0.05em;
-
   color: #ffffff;
   width: 170px;
   height: 40px;
@@ -161,7 +156,6 @@ a {
 .specials {
   margin-bottom: 100px;
 }
-
 .specials__title {
   margin-top: 0;
   margin-bottom: 40px;
@@ -179,6 +173,7 @@ a {
   gap: 20px;
   flex-direction: column;
   text-align: center;
+  max-width: 255px;
 }
 
 .special__title {
@@ -187,6 +182,7 @@ a {
 }
 .special__image {
   order: -1;
+  height: auto;
 }
 .special__price {
   font-size: 21px;
@@ -194,7 +190,6 @@ a {
   letter-spacing: 0.05em;
   color: #000000;
 }
-
 .special__buy {
   display: block;
   margin: 0 auto;
@@ -239,7 +234,6 @@ a {
 .subscribe__description {
   margin-bottom: 30px;
   line-height: 20px;
-
   color: #ffffff;
 }
 .subscribe__email {
@@ -254,25 +248,18 @@ a {
 .subscribe__email::placeholder {
   color: #c4c4c4;
 }
-.subscribe_image {
-}
-
 .location {
-  background-color: #f13c6e;
-  min-height: 210px;
-  flex-grow: 1;
   display: flex;
   flex-direction: column;
   max-width: 540px;
+  max-height: 210px;
   padding-left: 40px;
   background-color: #f13c6e;
-  min-height: 210px;
   flex-grow: 1;
   background-image: url(../img/our-shops1.png);
   background-repeat: no-repeat;
   background-position: calc(540px - 240px) 50%;
 }
-
 .location__title {
   font-size: 18px;
   margin-top: 35px;
@@ -286,6 +273,8 @@ a {
   color: #ffffff;
 }
 .location__action {
+  margin-bottom: 40px;
+  padding-bottom: 40px;
 }
 .location__link {
   display: flex;
@@ -293,7 +282,6 @@ a {
   font-size: 14px;
   line-height: 16px;
   letter-spacing: 0.02em;
-
   color: #ffffff;
   width: 170px;
   height: 35px;
